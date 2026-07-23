@@ -3,14 +3,13 @@
 Static, bilingual, tracking-free source for the public Astrogram legal and
 support portal.
 
-Before publishing, replace both placeholders in `assets/site-config.js`:
+Public controller configuration is centralised in `assets/site-config.js`.
+Any identity or contact change must be applied there, validated and republished.
 
-- `__LEGAL_CONTROLLER_NAME__`
-- `__SUPPORT_EMAIL__`
-
-The intended public URL is:
+The live public URL is:
 
 `https://jovanpraporski-rgb.github.io/astrogram-legal/`
 
-The source is published from a dedicated public repository so the private
-application repository remains private.
+The source is published from the dedicated public repository
+`jovanpraporski-rgb/astrogram-legal`, while the application repository remains
+private.
