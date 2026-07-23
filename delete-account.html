@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="sr" data-language="sr">
+  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Request deletion of an Astrogram account and associated data"><title>Astrogram — Brisanje naloga / Account deletion</title><link rel="stylesheet" href="assets/styles.css"><script src="assets/site-config.js" defer></script><script src="assets/app.js" defer></script></head>
+  <body>
+    <a class="skip-link" href="#content">Pređi na sadržaj</a>
+    <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">✦</span> Astrogram</a><div class="language-switch" aria-label="Language"><button type="button" data-language="sr" aria-pressed="true">SR</button><button type="button" data-language="en" aria-pressed="false">EN</button></div></header>
+    <main id="content" class="document">
+      <section class="hero"><div lang="sr"><p class="eyebrow">Astrogram nalog</p><h1>Brisanje naloga i podataka</h1><p class="lead">Ovaj zahtev možeš poslati bez instalirane aplikacije.</p></div><div lang="en"><p class="eyebrow">Astrogram account</p><h1>Delete account and data</h1><p class="lead">You can submit this request without having the app installed.</p></div></section>
+      <section class="card">
+        <div lang="sr"><h2>Najbrži način</h2><p>U aplikaciji otvori Profil → Obriši nalog i podatke. Time se nalog i povezani aktivni podaci brišu odmah.</p></div>
+        <div lang="en"><h2>Fastest method</h2><p>In the app, open Profile → Delete account and data. This immediately deletes the account and associated active data.</p></div>
+      </section>
+      <section class="card">
+        <div lang="sr"><h2>Zahtev bez aplikacije</h2><p>Popuni obrazac. Klik na dugme otvara tvoju email aplikaciju sa pripremljenim zahtevom koji moraš poslati na <span data-support-email></span>.</p></div>
+        <div lang="en"><h2>Request without the app</h2><p>Complete the form. The button opens your email app with a prepared request that you must send to <span data-support-email></span>.</p></div>
+        <form id="deletion-request">
+          <label for="account-email"><span lang="sr">Email Astrogram naloga</span><span lang="en">Astrogram account email</span></label>
+          <input id="account-email" name="accountEmail" type="email" autocomplete="email" required>
+          <label for="notes"><span lang="sr">Dodatna napomena (opciono)</span><span lang="en">Additional note (optional)</span></label>
+          <textarea id="notes" name="notes" maxlength="1000"></textarea>
+          <label class="checkbox"><input name="confirm" type="checkbox" required><span lang="sr">Razumem da je brisanje trajno i da Astrogram može tražiti potvrdu vlasništva nad nalogom.</span><span lang="en">I understand deletion is permanent and Astrogram may ask me to verify account ownership.</span></label>
+          <button class="button" type="submit"><span lang="sr">Pripremi zahtev</span><span lang="en">Prepare request</span></button>
+          <p id="form-status" class="notice" role="status" hidden></p>
+        </form>
+      </section>
+      <section class="card">
+        <div lang="sr"><h2>Šta se briše i rok</h2><p>Brišemo nalog, profil, datum/vreme/mesto rođenja, interesovanja, podešavanja, tokene uređaja, istoriju povezanu sa nalogom i korisnički sadržaj koji nije zakonski potrebno čuvati. Zahtev završavamo najkasnije u roku od 30 dana nakon potrebne provere identiteta. Ograničeni operativni zapisi brišu se u roku do 90 dana, dok rotirajuće šifrovane rezervne kopije nestaju najkasnije u 30 dana. Minimalni zapis može ostati samo kada zakon, bezbednost, sprečavanje prevare ili spor to zahtevaju.</p></div>
+        <div lang="en"><h2>What is deleted and when</h2><p>We delete the account, profile, birth date/time/place, interests, settings, device tokens, account-linked history, and user content not legally required to be retained. We complete the request within 30 days after any required identity verification. Limited operational records are deleted within 90 days, while encrypted rotating backups expire within 30 days. A minimal record may remain only when required for law, security, fraud prevention, or a dispute.</p></div>
+      </section>
+      <noscript><section class="card"><p>JavaScript je potreban za pripremu obrasca. Pošalji zahtev direktno na email naveden na stranici za podršku. / JavaScript is required to prepare the form. Send the request directly to the email shown on the support page.</p></section></noscript>
+    </main>
+    <footer class="site-footer"><nav><a href="index.html">Astrogram</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav></footer>
+  </body>
+</html>
